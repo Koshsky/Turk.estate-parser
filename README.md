@@ -1,5 +1,28 @@
 # Turk.estate-parser
 Parser turk.estate
+Собирает ифнормацию о каждом объявлении продажи недвижимости с сайта turk.estate
+Информация сохраняется в .csv формате с разделителем ;
+
+столбцы:
+  Site
+  Name
+  Price
+  City
+  Disctrict
+  Region
+  Type
+  Rooms
+  Living space
+  To sea
+  To city center
+  Location
+  Features
+  Indoor facilities
+  Outdoor features
+  Property description	
+  Date	
+  URL
+
   
 Все исползуемые библиотеки: 
 
@@ -18,10 +41,10 @@ pip install lxml
 pip instal pysocks (бывают проблемы без этой команды)
 
 
-  В reports.txt логируются зафиксированные ошибки с прокси
   Файл proxies_IPv4_socks5.txt нужно наполнить вашими прокси по образцу. если ваш прокси
 не предусматривает использование логина и пароля, то используется формат ip:port
-  Чтобы пользоваться парсером, нужно запустить main.py и следовать подсказкам.
+  Бесплатные прокси можно найти здесь: https://hidemy.name/ru/proxy-list/
+  В reports.txt логируются зафиксированные ошибки с прокси
 
 
 Контакты:
