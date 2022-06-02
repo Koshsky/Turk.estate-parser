@@ -4,24 +4,24 @@ Parser turk.estate
 Информация сохраняется в .csv формате с разделителем ;
 
 столбцы:
-  Site
-  Name
-  Price
-  City
-  Disctrict
-  Region
-  Type
-  Rooms
-  Living space
-  To sea
-  To city center
-  Location
-  Features
-  Indoor facilities
-  Outdoor features
-  Property description	
-  Date	
-  URL
+  Site |
+  Name |
+  Price | 
+  City |
+  Disctrict |
+  Region |
+  Type |
+  Rooms |
+  Living space |
+  To sea |
+  To city center |
+  Location |
+  Features |
+  Indoor facilities |
+  Outdoor features |
+  Property description |
+  Date |
+  URL  |
 
   
 Все исползуемые библиотеки: 
